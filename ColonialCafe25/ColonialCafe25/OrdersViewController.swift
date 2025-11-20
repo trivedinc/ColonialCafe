@@ -164,9 +164,10 @@ extension OrdersViewController: UITableViewDelegate, UITableViewDataSource {
         return true
     }
     
-    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
-        if editingStyle == .delete {
-              forRowAt indexPath: IndexPath) {
+    func tableView(_ tableView: UITableView,
+                   commit editingStyle: UITableViewCell.EditingStyle,
+                   forRowAt indexPath: IndexPath) {
+        
         if editingStyle == .delete {
             let orderKey = orderKeys[indexPath.row]
             
@@ -188,3 +189,4 @@ extension OrdersViewController: UITableViewDelegate, UITableViewDataSource {
         }
     }
 }
+
