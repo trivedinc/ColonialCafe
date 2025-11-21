@@ -56,22 +56,9 @@
 		4010A5492DAEA6CD00660B6C /* ColonialCafe25UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColonialCafe25UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		4010A5512DAEA6CD00660B6C /* Exceptions for "ColonialCafe25" folder in "ColonialCafe25" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 4010A5282DAEA6CB00660B6C /* ColonialCafe25 */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		4010A52B2DAEA6CB00660B6C /* ColonialCafe25 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				4010A5512DAEA6CD00660B6C /* Exceptions for "ColonialCafe25" folder in "ColonialCafe25" target */,
-			);
 			path = ColonialCafe25;
 			sourceTree = "<group>";
 		};
