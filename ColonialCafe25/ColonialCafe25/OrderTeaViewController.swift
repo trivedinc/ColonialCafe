@@ -62,7 +62,6 @@ class OrderTeaViewController: UIViewController {
         button.layer.borderWidth = 1
         button.layer.borderColor = UIColor.systemGray4.cgColor
         button.layer.cornerRadius = 8
-        button.contentEdgeInsets = UIEdgeInsets(top: 0, left: 10, bottom: 0, right: 0)
         button.translatesAutoresizingMaskIntoConstraints = false
         return button
     }()
